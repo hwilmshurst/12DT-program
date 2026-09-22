@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bflu10jqhrr3m"]
+
+[ext_resource type="Script" uid="uid://d4bg5n4qxu7v1" path="res://scripts/hole.gd" id="1_ln22a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1s0jb"]
+size = Vector2(70, 12)
+
+[node name="Area2D" type="Area2D" unique_id=565775588]
+script = ExtResource("1_ln22a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1439643541]
+shape = SubResource("RectangleShape2D_1s0jb")
+
+[connection signal="body_entered" from="." to="." method="_hole_made"]
