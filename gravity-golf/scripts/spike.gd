@@ -17,6 +17,5 @@ func _on_area_entered(area: Area2D) -> void:
 
 
 func damage(body_rid: RID, body: Node2D, body_shape_index: int, local_shape_index: int) -> void:
-	
 	print("damage")
 	pass
