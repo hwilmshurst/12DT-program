@@ -10,7 +10,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
-
+# Checks if the ball is in the hole than changes goes to the results screen
 func _hole_made(body: Node2D) -> void:
 	if body.name == "ball":
 		get_tree().change_scene_to_file("res://complete1.tscn")

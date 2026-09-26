@@ -109,4 +109,7 @@ position = Vector2(600, 286)
 position = Vector2(546, 286)
 
 [node name="Spike4" parent="." unique_id=1399595352 instance=ExtResource("6_rt2n2")]
-position = Vector2(70, 425)
+position = Vector2(244, 260)
+
+[node name="Area2D2" parent="." unique_id=446043007 instance=ExtResource("3_rt2n2")]
+position = Vector2(1099, 506)
